@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+:root {
+	--primary-color: #dc3545;
+	--dark-color: #333333;
+	--light-color: #f4f4f4;
+	--danger-color: #dc3545;
+	--success-color: #28a745;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	list-style: none;
+}
+
+nav ul {
+	display: flex;
+	height: 3rem;
+	align-items: center;
+}
+
+#title {
+	font-weight: 800;
+	font-size: 23px;
+	margin-right: 4rem;
+}
+nav i {
+	margin-left: 12px;
+	font-size: 2rem;
+}
+
+nav ul li > * {
+	padding-right: 34px;
+	color: #f4f4f4;
+}
+.bg-primary {
+	background-color: #0022ffa2;
+	color: #fff;
+}
+
+.card {
+	margin-top: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	box-shadow: 0px 0px 1px 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+.round-img {
+	width: 20%;
+	border-radius: 50%;
+}
+img {
+	display: block;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+	display: inline;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn {
+	background: #333;
+	color: white;
+	margin: auto;
+	cursor: pointer;
+	display: block;
+	font-size: larger;
+	margin-top: 8px;
+	/* box-shadow: 2px 2px 12px 2px rgba(12, 12, 12, 0.3); */
+}
+.btn-inline {
+	display: inline;
+	margin: 0 12px;
+}
+.btn-light {
+	box-sizing: border-box;
+	color: var(--light-color);
+	padding: 5px;
+	padding-left: 33px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2%;
+}
+
+input[type='text'] {
+	height: 30px;
+	outline: none;
+}
+
+.btn-block {
+	justify-content: center;
+	align-items: center;
+}
+
+.clear-btn {
+	display: flex;
+	margin: 0 auto;
+}
+
+.alert {
+	padding: 0.7rem;
+	margin: 1rem 0;
+	opacity: 0.9;
+	background: var(--light-color);
+	color: #333;
+}
+.alert-light {
+	background: var(--light-color);
+	color: #333;
+}
+.alert-danger {
+	background: var(--danger-color);
+	color: #fff;
+}
+.about-para {
+	margin-left: 22px;
+}
+
+#about {
+	margin-top: 12px;
+}
+
+.more-btn {
+	padding-top: 6px;
+}
+.text-success {
+	color: var(--success-color);
+}
+
+.text-danger {
+	color: var(--danger-color);
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.flex-container p {
+	background: #333;
+	color: white;
+	margin: 12px;
+	padding: 6px;
+	font-weight: 300;
+	border-radius: 2px;
+	box-shadow: 2px 2px 12px 2px rgba(12, 12, 12, 0.3);
+}
+.mt-3 {
+	margin-top: 3px;
+}
